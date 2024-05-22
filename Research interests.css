@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: transparent;
+  padding: 2px;
+}
+li a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover,
+a:active {
+  color: #66ccff; /* Set the link color on hover */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container2 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  justify-content: space-around;
+  align-content: end;
+  padding: 20px;
+  border: 2px solid black;
+
+}
+
+.cont1 {
+  flex: 0 0 calc(33.33% - 20px); /* 3 columns with 20px spacing */
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cont1 ul {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.cont1 li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.cont1 p {
+  padding: 15px;
+  color: #555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .cont1 {
+    flex: 0 0 calc(100% - 20px); /* Full width with 20px spacing */
+  }
+}

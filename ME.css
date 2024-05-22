@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=IBM+Plex+Mono:wght@100&family=Noto+Sans:wght@200&family=Raleway:wght@200&family=Work+Sans:ital,wght@1,300&display=swap");
+
+:root {
+  --TXTSIZE: clamp(16px, 8vw, 50px);
+  --BGCOLOR: #363753;
+  --COLOR1: #dfe3ee;
+  --COLOR2: #fefefe;
+  --COLOR3: #5cd2c6;
+}
+
+body {
+  background-color: var(--BGCOLOR);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("/elegant-cozy-office-space.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--BGCOLOR);
+}
+
+header {
+  background-color: transparent;
+  padding: 2px;
+}
+li a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+a:hover,
+a:active {
+  color: #66ccff; /* Set the link color on hover */
+}
+
+section.box {
+  max-width: 800px;
+  margin: 60px auto;
+
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(25, 113, 201, 0.1);
+  border-radius: 2rem;
+  box-shadow: 1px 1px 5px 5px gray;
+  background-color: hsla(190, 72%, 90%, 0.447);
+}
+.box:hover {
+  transform: scale(101%, 101%);
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.smallbox {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  align-content: space;
+}
+
+.card p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: black;
+  min-width: 500px;
+  text-align: justify;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Work Sans", sans-serif;
+}
+
+.card span {
+  font-weight: bold;
+  color: aqua;
+}
+
+.image img {
+  display: block;
+  flex-grow: 3;
+  height: 90%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+
+  border-radius: 50%;
+  border: double #737089;
+
+  width: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

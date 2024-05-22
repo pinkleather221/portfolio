@@ -1,0 +1,108 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: transparent;
+  padding: 4px;
+}
+li a {
+  text-decoration: none;
+  color: purple;
+}
+ul li {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+a:hover,
+a:active {
+  color: #66ccff; /* Set the link color on hover */
+}
+
+.container1 {
+  width: 70vw;
+  height: 70vh;
+  border: 3px solid #a28089;
+  border-radius: 60px;
+  font-size: large;
+  display: flex;
+
+  background-image: url(nelly2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  background-color: #a28089;
+  margin: 60px auto;
+
+  justify-content: center;
+  object-fit: contain;
+}
+p {
+  color: rgb(39, 57, 24);
+  line-height: 2rem;
+  margin: 2rem auto;
+}
+h2 {
+  color: transparent;
+}
+
+section {
+  margin-left: 20px;
+  align-items: center;
+  display: flexbox;
+}
+.introduction p {
+  align-items: center;
+  color: transparent;
+  margin-left: 200px;
+}
+section .passion {
+  color: aqua;
+}
+
+/* images 
+.products .box .card .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .box .card .image img {
+  width: 150px;
+  margin: 15px 0;
+  transition: 0.3s;
+  object-fit: contain;
+}
+
+.products .box .card:hover .image img {
+  transform: scale(1.1);
+}
+
+.title {
+  margin: 50px;
+  font-size: 3rem;
+  margin-right: 250px;
+  color: gold;
+  display: grid;
+  place-items: center;
+}
+.listProduct .item img {
+  filter: drop-shadow(0 50px 20px #0009);
+  width: 200px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  box-shadow:  rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 0.3s;
+  height: auto;
+  margin: 15px 0;
+  transition: 0.3s;
+  border-radius: 20px;
+ /*  position: relative;
+  left: 20px; */

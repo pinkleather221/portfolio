@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+/*     background-color: rgb(35, 35, 54); */
+background-image: url('/img/IMG-20231109-WA0019.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+background-position: top;
+background-blend-mode: darken;
+    
+}
+
+header h1{    
+    font-size: 12px;
+    color: rgb(56, 55, 53);    
+    padding: 4em 2em 0 2em; 
+
+}
+form{
+    margin:3em auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    max-width: 500px;
+    
+    border-radius: 39px;
+    background: #a7a3c7;
+    box-shadow:  5px 5px 10px #737089,
+                 -5px -5px 10px #dbd6ff;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: inset;
+    background-color: inherit;
+
+
+}
+form input{
+    background-color: inherit;
+
+}
+input[type=submit]{
+    padding: 12px;
+    border-radius:20px;
+}
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+}
+fieldset label{
+    font-weight: 700;
+}
+
+/*footer ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    padding: 15px;
+    color: papayawhip;
+    cursor: pointer;`
+}
+footer ul li:hover ,footer ul li:active{
+    
+    transition-property: color;
+    transition-delay: 2s;
+    background-color: rgb(166, 28, 28);
+}
